@@ -1,3 +1,4 @@
+<title>AdminLTE 3 | Dashboard</title>
 <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
