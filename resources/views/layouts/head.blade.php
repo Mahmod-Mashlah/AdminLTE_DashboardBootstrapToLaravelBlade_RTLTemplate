@@ -1,4 +1,5 @@
-
+{{-- CSS Bootstrap CDN --}}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- PreLoader -->
   <link rel="stylesheet" href="{{asset('assets/css/preloader.css')}}">
 
@@ -9,7 +10,18 @@
          <span><img  src="{{asset('assets/img/AdminLTELogo.png')}}" alt="Logo" height="100" width="100"></span>
       </div>
   </div>
-
+    <script>
+        // This is the JavaScript that will fade out the preloader
+        window.addEventListener('load', function() {
+            var preloader = document.getElementById('preloader');
+            // Change the opacity to 0 to start the fade-out
+            preloader.style.opacity = '0';
+            // After the transition is complete, hide the preloader
+            preloader.addEventListener('transitionend', function() {
+                preloader.style.display = 'none';
+            });
+        });
+    </script>
 </div>
 <!-- Font Awesome -->
 {{--   this line below will converted  --}}

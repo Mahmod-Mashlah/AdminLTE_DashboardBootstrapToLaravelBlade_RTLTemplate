@@ -76,13 +76,15 @@ pre-span {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 1s ease-out;
+    /* Add transition property for fade-out effect */
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
 
 }
 
 /* Hide the preloader after 3 seconds */
 body.loaded #preloader {
     opacity: 0;
-    transform: scale(1.5);
+    /* transform: scale(1.1); */
     /* transform: translateY(100%); */
 }
