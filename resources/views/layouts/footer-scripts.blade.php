@@ -31,7 +31,7 @@
 <script type="text/javascript" src="{{ URL::asset('assets/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
 <!-- daterangepicker -->
 {{-- <script src="plugins/moment/moment.min.js"></script> --}}
-<script type="text/javascript" src="{{ URL::asset('assets/plugins/plugins/moment/moment.min.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('assets/plugins/moment/moment.min.js') }}"></script>
 {{-- <script src="plugins/daterangepicker/daterangepicker.js"></script> --}}
 <script type="text/javascript" src="{{ URL::asset('assets/plugins/daterangepicker/daterangepicker.js') }}"></script>
 <!-- Tempusdominus Bootstrap 4 -->

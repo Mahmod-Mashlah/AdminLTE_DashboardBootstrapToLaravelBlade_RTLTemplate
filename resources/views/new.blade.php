@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
+    {{-- Title here --}}
 @endsection {{-- or @stop --}}
 
 @section('css')
