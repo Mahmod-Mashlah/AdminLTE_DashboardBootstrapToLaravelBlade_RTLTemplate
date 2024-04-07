@@ -53,3 +53,11 @@
 <!-- AdminLTE for demo purposes -->
 {{-- <script src="dist/js/demo.js"></script> --}}
 <script type="text/javascript" src="{{ URL::asset('assets/js/demo.js') }}"></script>
+
+ {{-- Preloader  --}}
+<script>
+        // After 0.5 seconds, add the 'loaded' class to the body
+        setTimeout(function() {
+            document.body.classList.add('loaded');
+        }, 500);
+    </script>

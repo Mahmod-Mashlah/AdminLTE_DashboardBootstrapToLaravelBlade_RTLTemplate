@@ -1,4 +1,16 @@
 
+<!-- PreLoader -->
+  <link rel="stylesheet" href="{{asset('assets/css/preloader.css')}}">
+
+    <!-- Preloader -->
+  <div id="preloader" class="preloader flex-column justify-content-center align-items-center">
+    <div class="pre-center">
+         <div class="pre-ring"></div>
+         <span><img  src="{{asset('assets/img/AdminLTELogo.png')}}" alt="Logo" height="100" width="100"></span>
+      </div>
+  </div>
+
+</div>
 <!-- Font Awesome -->
 {{--   this line below will converted  --}}
   {{-- <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css"> --}}
@@ -36,3 +48,4 @@
   <!-- Custom style for RTL -->
   {{-- <link rel="stylesheet" href="dist/css/custom.css"> --}}
   <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
+
