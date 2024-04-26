@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/data-table', function () {
     return view('datatable-example');
 });
+
+Route::get('/new', function () {
+    return view('new');
+});
